@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+  } 
+  /* SCROLLING- This example does not work in Internet Explorer, Edge or Safari*/
+#about {
+    border-bottom: 1px solid rgb(206, 204, 204);
+}
+
+
+#about h1 {
+    padding-top: 120px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 8em;
+}
+.myNav {
+    background-color: #3AAFA9;
+}
+#navbarSupportedContent a {
+    color: white;
+}
+#navbarSupportedContent a:hover {
+    color: rgb(22, 90, 87);
+}
+#navbarSupportedContent a:active {
+    color: rgb(22, 90, 87);
+}
+#about span {
+    color:#3AAFA9 ;
+}
+header {
+    border-bottom: 1px solid rgb(201, 199, 199);
+}
+#experience {
+    border-bottom: 1px solid rgb(201, 199, 199);
+}
+#experience {
+    padding-bottom: 50px;
+}
+#about h3 {
+    margin-top: 20px;
+    line-height: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    color: gray;
+}
+#about p {
+    font-size: 1.2em;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 30px;
+    color: rgb(163, 163, 163);
+    line-height: 30px;
+    
+}
+#about img {
+    margin-top: 20px;
+    padding-right: 20px;
+    width: 70px;
+    height: 50px;
+    margin-bottom: 80px;
+    transition: 1s all;
+}
+#about img:hover {
+    width: 90px;
+    height: 70px;
+}
+
+#experience h1 {
+    margin-top: 45px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5em;
+}
+#experience h2 {
+    margin-top: 30px;
+    color: #3AAFA9;
+    font-size: 3em;
+}
+#experience h3 {
+    font-weight: lighter;
+    font-size: 1.8em;
+    margin-top: 15px;
+    color: gray;
+}
+#experience p {
+    margin-top: 30px;
+}
+.experienceP {
+    color: gray;
+}
+.experienceDate {
+    color: #3AAFA9;
+}
+
+#education h1 {
+    margin-top: 45px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5em;
+}
+#education h2 {
+    margin-top: 50px;
+    color: #3AAFA9;
+    font-size: 2em;
+}
+#education h3 {
+    font-weight: lighter;
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: gray;
+}
+#education p {
+    margin-top: 20px;
+}
+#education {
+    border-bottom: 1px solid rgb(201, 199, 199);
+    padding-bottom: 50px;
+}
+#skills img {
+    margin-top: 50px;
+    padding-right: 20px;
+    width: 70px;
+    height: 50px;
+    margin-bottom: 50px;
+    transition: 1s all;
+    
+}
+#skills h1 {
+    margin-top: 45px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5em;
+    margin-bottom: 50px;
+}
+#skills h3 {
+    font-weight: lighter;
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: gray;
+}
+#skills li {
+    color: gray;
+    margin-left: 40px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+#skills img:hover {
+    width: 90px;
+    height: 70px;
+}
+#skills {
+    border-bottom: 1px solid rgb(201, 199, 199);
+padding-bottom: 50px;
+}
+#sidebar {
+    display: none;
+}
+#experience {
+    margin: 0;
+}
+
+@media (min-width: 992px) { 
+    #navz {
+        display: none;
+    }
+    #sidebar {
+        display: block;
+    }
+   
+    #jcImage img {
+        margin-bottom: 20px;
+        margin-top: 70px;
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        border: 6px solid rgb(79, 196, 192);
+
+    }
+    
+    #sidebar {
+        text-align: center;
+        position: fixed;
+        background-color: #3AAFA9;
+        height: 100vh;
+        width: 30%;
+    }
+    #sidebar a {
+        letter-spacing: 2px;
+        margin: 5px;
+        font-size: 1.3em;
+        color: white;
+        font-family: 'Oswald', sans-serif;
+    }
+    #sidebar a:hover {
+        color: #17252A;
+    }
+    #sidebar a:active {
+        color: #17252A;
+
+    }
+    .right {
+        padding-left: 400px;
+    }
+ }
